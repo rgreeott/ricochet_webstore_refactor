@@ -1,0 +1,158 @@
+/* ===============
+   Global style changes
+================ */
+
+
+body{
+background: -moz-linear-gradient(top, rgba(125,185,232,0) 0%,
+rgba(178,193,131,0.5) 50%, rgba(178,193,131,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(125,185,232,0)
+0%,rgba(178,193,131,0.5) 50%,rgba(178,193,131,1) 100%); /*
+Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(125,185,232,0)
+0%,rgba(178,193,131,0.5) 50%,rgba(178,193,131,1) 100%); /* W3C, IE10+,
+FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+hr {
+    border-bottom: 1px dashed #000;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+a{
+  color: #000;
+}
+a:hover, a:focus{
+  color: rgb(255, 0, 0);
+}
+.pagination > .active > a, .pagination > .active > span, .pagination >
+.active > a:hover, .pagination > .active > span:hover, .pagination >
+.active > a:focus, .pagination > .active > span:focus{
+  color: #000;
+  background-color: rgb(209, 218, 180);
+  border-color: #000;
+}
+
+.page-header {
+   *border-bottom: 1px dashed #afafaf;
+   border-bottom: 1px dashed #000;
+}
+#page-nav{
+  *background: rgba(159, 221, 137, 0.5);
+  *background: rgb(206, 237, 193);
+  background: rgb(209, 218, 180);
+}
+.category-list-item-inner, .product-list-item {
+  *background: rgba(159, 221, 137, 0.5);
+  background: rgb(238, 238, 238);
+  border-radius: 6px;
+  *border: solid 1px #afafaf;
+  border: solid 2px  rgba(159, 221, 137, 1);
+}
+.category-list-label{
+  font-size: 10pt;
+}
+.product-list-label{
+  font-size: 10pt;
+}
+.product-list-item {
+  margin: 0px 0px 5px 0px;
+}
+.product-list-image {
+ border-radius: 6px;
+}
+.product-list-price{
+  background: rgb(255, 0, 0);
+ }
+.product-image-large img{
+  border: solid 2px  rgba(159, 221, 137, 1);
+}
+
+/* ===============
+   custom navbar styles
+================ */
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover{
+height:100%;
+}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav >
+.open > a:focus, .navbar-default .navbar-nav > .open > a:hover {
+  background: #98B975;
+}
+.navbar-default .navbar-nav > li > a{
+  color:  #000;
+}
+.navbar-default #login_link{
+visibility: hidden;
+}
+.dropdown-menu > li > a:focus, .dropdown-menu > li > a:hover {
+ background-color: #000;
+}
+#secondary-nav {
+  border-style: solid;
+  border-width: 1px;
+}
+.navbar-right #search {
+ padding: none;
+width: 160px;
+}
+/* ===============
+   custom carousel styles
+================ */
+.carousel-caption{
+text-transform: uppercase;
+top: 20%;
+bottom: 0;
+width: 60%;
+}
+.carousel-caption h1{
+font-weight: bold;
+color: #000;
+background-color: rgba(255, 255, 255, 0.3);
+}
+.carousel-caption p{
+font-size: 130%;
+color: #FFF;
+}
+/* ===============
+   Custom styles
+================ */
+.card {
+  height: 100%;
+}
+.jumbotron.jumbotron-fluid{
+  border: solid 2px  rgba(159, 221, 137, 1);
+}
+#slider_p{
+  color: #fff;
+  text-align: justify;
+  text-shadow: 1px 1px #000;
+}
+#slider_ol{
+  color: #fff;
+  text-shadow: 1px 1px #000;
+}
+.page-text-container{
+   background: rgba(238, 238, 238, 0.9);  
+   border-radius: 6px;
+   margin-right: 5px;
+   padding: 10px 10px 10px 10px;
+   border: solid 2px rgba(159, 221, 137, 1);
+}
+.page-image-embed{
+   display: table;
+   text-align: center;
+   vertical-align: middle;
+   border-radius: 6px;
+   box-shadow: 5px 5px #888888;
+   padding: 3px 3px 3px 3px;
+}
+.page-iframe{
+  width: 100%;
+  height: 1300px;
+   border: solid 2px  rgba(159, 221, 137, 1);
+}
+.google-map{
+  border: solid 2px  rgba(159, 221, 137, 1);
+}
