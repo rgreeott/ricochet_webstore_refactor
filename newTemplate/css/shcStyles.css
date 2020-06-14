@@ -54,9 +54,8 @@ FF16+, Chrome26+, Opera12+, Safari7+ */
 /* Custom styling for simplyhome */
 
 .container-margin{
-    padding: 25px;   
+    padding: 25px !important;
 }
-.separator {
-    padding: 20px;
-    
+.container-bkgnd {
+    background-color: white !important;
 }
