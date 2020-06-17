@@ -1,0 +1,219 @@
+
+.form-all {
+background-repeat : no-repeat;
+background-attachment : scroll;
+background-position : center top;
+background : #FFFFFF;
+width : 410px;
+padding : 0px;
+}input,textarea,select,option,label {
+cursor : pointer;
+}input[type="text"], input[type="email"], textarea {
+box-shadow : 0px 0px 0px transparent !important;
+width : 178px !important;
+padding : 5px;
+color : #222222;
+background-color: #FFF;
+background-image: none;
+border: 1px solid #CCC;
+border-radius: 3px;
+box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset !important;
+transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s !important;
+}
+input[type="text"]:focus, select:focus, input[type="email"]:focus, textarea:focus, input[type="tel"]:focus, input[type="number"]:focus {
+border-color: #66AFE9 !important;
+outline: 0px none !important;
+box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px rgba(102, 175, 233, 0.6) !important;
+}select {
+border : 0px;
+background-color: #FFF;
+background-image: none;
+border: 1px solid #CCC;
+border-radius: 3px;
+box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset !important;
+transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s !important;
+color : #222222;
+width : 190px !important;
+padding : 5px !important;
+}
+.form-textbox.form-address-line { width: 315px !important;}input[type="tel"], input[type="number"] {
+background : none repeat scroll 0% 0% #FFF !important;
+padding : 5px;
+color : #222222;
+background-image: none;
+border: 1px solid #CCC;
+border-radius: 3px;
+box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset !important;
+transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s !important;
+}input[name="q24_phoneNumber[phone]"] {
+width : 102px !important;
+}.form-matrix-row-headers, .form-matrix-column-headers {
+color : #FFFFFF !important;
+background: #563D7C !important;
+}.form-matrix-row-headers, .form-matrix-column-headers {
+border: 1px solid #330033 !important;
+color: #FFFFFF !important;
+}.form-matrix-values {
+border : 1px solid #563D7C !important;
+background : #FFFFFF !important;
+}
+.form-all .qq-upload-button,
+.form-all .form-submit-button,
+.form-all .form-submit-reset,
+.form-all .form-submit-print {
+font-size : 1em;
+padding : 9px 30px;
+font-family : "Helvetica Neue",Helvetica,Arial,sans-serif;
+font-size : 14px;
+font-weight : normal;
+color: #FFF;
+text-shadow : none;
+text-transform : uppercase;
+border: 1px solid transparent !important;
+background-image: linear-gradient(to bottom, #337AB7 0px, #265A88 100%) !important;
+background-repeat: repeat-x !important;
+border-color: #245580 !important;
+text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.2) !important;
+box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.15) inset, 0px 1px 1px rgba(0, 0, 0, 0.075) !important;
+}
+.form-all .qq-upload-button:hover, .input[type="file"]:hover,
+.form-all .form-submit-button:hover,
+.form-all .form-submit-reset:hover,
+.form-all .form-submit-print:hover {
+color: #FFF !important;
+background-color: #265A88 !important;
+background-position: 0px -15px !important;
+}.form-all .qq-upload-button:active, .input[type="file"]:active,
+.form-all .form-submit-button:active,
+.form-all .form-submit-reset:active,
+.form-all .form-submit-print:active {
+outline: thin dotted !important;
+outline: 5px auto -webkit-focus-ring-color !important;
+outline-offset:-2px !important;
+-webkit-box-shadow:inset 0 3px 5px rgba(0,0,0,.125) !important;
+box-shadow:inset 0 3px 5px rgba(0,0,0,.125) !important;
+}.form-all .form-pagebreak-back,
+.form-all .form-pagebreak-next {
+background-image : -webkit-gradient(linear,left top,left bottom,color-stop(0, #40B3FF),color-stop(1, #0483D8));
+background-image : -o-linear-gradient(bottom, #40B3FF 0%, #0483D8 100%);
+background-image : -moz-linear-gradient(bottom, #40B3FF 0%, #0483D8 100%);
+background-image : -webkit-linear-gradient(bottom, #40B3FF 0%, #0483D8 100%);
+background-image : -ms-linear-gradient(bottom, #40B3FF 0%, #0483D8 100%);
+background-image : linear-gradient(to bottom, #40B3FF 0%, #0483D8 100%);
+color : #FFF;
+text-shadow : none;
+text-transform : uppercase;
+border : 0px;
+box-shadow : 0px 0px 0px;
+}.form-spinner-down {
+background : url('http://us-cms.jotservers.com/uploads/image_upload/image_upload/Syed/33321_b_down_arrow.png') !important;
+width : 9px !important;
+height : 10px !important;
+background-repeat : no-repeat !important;
+background-position : 3px 0px !important;
+cursor : pointer !important;
+border : 1px solid #330033 !important;
+}.form-spinner-up {
+background : url('http://us-cms.jotservers.com/uploads/image_upload/image_upload/Syed/33320_b_up_arrow.png') !important;
+width : 8px !important;
+height : 10px !important;
+background-repeat : no-repeat !important;
+background-position : 3px 0px !important;
+cursor : pointer !important;
+border : 1px solid #330033 !important;
+}.form-spinner-down img, .form-spinner-up img {
+display : none !important;
+}.form-spinner {
+border : 1px solid #330033 !important;
+}input[type="number"] {
+background : #FFFFFF !important;
+}.form-star-rating {
+cursor : pointer !important;
+}.form-captcha input {
+width : 130px !important;
+margin : 5px 0px;
+}li[data-type="control_fullname"] div {
+display : block !important;
+width : 331px !important;
+text-align : right !important;
+}.form-sub-label {
+text-align : left;
+}.form-label.form-label-left {
+text-align : left !important;
+margin-bottom : 1px;
+}.form-textbox.form-address-state {
+position : relative;
+left : 1px;
+width: 118px !important;
+}.form-dropdown.form-address-country {
+width : 131px !important;
+position : relative;
+left : 1px;
+}#input_20_phone {
+width : 106px !important;
+}.time-dropdown.form-dropdown {
+width : 55px !important;
+}li[data-type="control_time"] div {
+width : 200px !important;
+}input[type="tel"]:nth-child(2) {
+width : 105px !important;
+}input[name="q24_phoneNumber[phone]"] {
+width : 115px !important;
+}#input_24_area {
+width : 65px !important;
+}li[data-type="control_datetime"] div {
+display : block;
+width : 370px;
+}li[data-type="control_datetime"] label:first-child {
+width : 105px !important;
+}.custom-field-frame.custom-field-frame-rendered.frame-ready {
+width : 340px !important;
+}.sigNav a {
+position : relative !important;
+float : right !important;
+margin : 5px !important;
+}@media (min-width:300px) and (max-width:550px){
+.form-all {
+margin-right : 0px !important;
+}input[type="text"], input[type="email"], select, textarea {
+width : 100% !important;
+}[data-type="control_dropdown"] .form-input, [data-type="control_dropdown"] .form-input-wide {
+width : 100% !important;
+}.form-input, .form-input-wide, .form-textarea, .form-textbox, .form-dropdown {
+width : 100% !important;
+}li[data-type="control_fullname"] div {
+width : 100% !important;
+}.form-textbox.form-address-line {
+width : 100% !important;
+}.form-textbox.form-address-state {
+width : 100% !important;
+}.form-dropdown.form-address-country {
+width : 100% !important;
+}#input_24_area {
+width : 100% !important;
+}#input_24_phone {
+width : 100% !important;
+}li[data-type="control_time"] div {
+width : 100% !important;
+}.time-dropdown.form-dropdown {
+width : 100% !important;
+}input[type="number"] {
+width : 30% !important;
+}.form-dropdown, .form-list {
+box-shadow : 0px 0px 3px #AAA !important;
+border : 0px solid transparent !important;
+}.form-spinner-up img, .form-spinner-down img {
+display : block !important;
+}.form-spinner-up {
+background : none !important;
+}.form-spinner-down {
+background : none !important;
+}}*:focus {
+outline : 0;
+}
+a {color: #337ab7 !important;text-transform:capitalize !important;text-decoration: none !important;}
+a:focus, a:hover {color: #23527C !important;text-decoration: underline !important;}
+.form-error-message {display: none !important;}
+.form-line-error {background: transparent !important;}
+.form-button-error {color: #333333 !important; display: block !important;text-align: left !important;background: #F2DEDE !important;padding: 15px !important;
+}
