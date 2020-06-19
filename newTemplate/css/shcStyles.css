@@ -24,6 +24,9 @@ FF16+, Chrome26+, Opera12+, Safari7+ */
     color: #000000;
 }
 
+.card td{
+    padding: 4px;
+}
 
 /* ==========================================
     CUSTOM STYLING FOR SIMPLY HOME PAGES
