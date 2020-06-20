@@ -20,6 +20,31 @@ background: linear-gradient(to bottom, rgba(125,185,232,0)
 FF16+, Chrome26+, Opera12+, Safari7+ */
 }
 
+.p {
+    color: #FFFFFF !important;
+}
+
+.rounded {
+    border-radius: 0.5rem !important;
+}
+
+.shadow-sm {
+    -webkit-box-shadow: 0.124rem 0.125rem 0.25rem rgba(0, 0, 0, 0.5) !important;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.5) !important;
+}
+.shadow {
+    -webkit-box-shadow: 0.5rem 0.5rem 1rem rgba(0, 0, 0, 0.5) !important;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5) !important;
+}
+.shadow-lg {
+    -webkit-box-shadow: 1rem 1rem 3rem rgba(0, 0, 0, 0.5) !important;
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.5) !important;
+}
+.shadow-none {
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
 .card{
     color: #000000;
 }
@@ -28,45 +53,68 @@ FF16+, Chrome26+, Opera12+, Safari7+ */
     padding: 4px;
 }
 
+/* custom d-flex */
+.d_flex {
+     display: flex;
+     align-items: center;
+     flex-wrap: wrap;
+}
+
 /* ==========================================
     CUSTOM STYLING FOR SIMPLY HOME PAGES
     ========================================== */
 
 /* Container styling */
+container-top{
+    position: relative !important;
+}
 .container-margin{
     padding: 25px !important;
 }
+
 .container-bkgnd {
-    color: #FFFFFF;
+    color: #FFFFFF !important;
     background-color: #707B61 !important;
+}
+
+.text-box-right{
+    color: #000000 !important;
+    background-color: #ecf0e0 !important;
+    margin-right: 20px;
+}
+
+.text-box-left{
+    color: #000000 !important;
+    background-color: #ecf0e0 !important;
+    margin-left: 20px;
 }
 
 /* Accordion styling */
 .accordion .card{
-    color: #000000;
-    background-color: #E2E7D4;
+    color: #000000 !important;
+    background-color: #E2E7D4 !important;
 }
 
 /* Pre-footer styling */
 .pre-footer {
-    color: #FFFFFF;
+    color: #FFFFFF !important;
     background-color: #707B61 !important;
 }
 
 .pre-footer h2{
-    color: #FFFFFF;
+    color: #FFFFFF !important;
     font-size: 1.25rem !important;
 }
 
 .pre-footer table{
-    width: 100%;
+    width: 100% !important;
 }
 
 .pre-footer td{
-    padding: 3px;
+    padding: 3px !important;
 }
 
 .pre-footer td, td-width{
-    width: 30px;
+    width: 30px !important;
 }
 
