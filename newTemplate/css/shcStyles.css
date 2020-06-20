@@ -41,6 +41,12 @@ FF16+, Chrome26+, Opera12+, Safari7+ */
     background-color: #707B61 !important;
 }
 
+/* Accordion styling */
+.accordion .card{
+    color: #000000;
+    background-color: #E2E7D4;
+}
+
 /* Pre-footer styling */
 .pre-footer {
     color: #FFFFFF;
@@ -63,3 +69,4 @@ FF16+, Chrome26+, Opera12+, Safari7+ */
 .pre-footer td, td-width{
     width: 30px;
 }
+
