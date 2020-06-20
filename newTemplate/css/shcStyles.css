@@ -46,11 +46,11 @@ FF16+, Chrome26+, Opera12+, Safari7+ */
 }
 
 .card{
-    color: #000000;
+    color: #000000 !important;
 }
 
 .card td{
-    padding: 4px;
+    padding: 4px !important;
 }
 
 /* custom d-flex */
