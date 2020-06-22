@@ -1,0 +1,889 @@
+Template 1 code
+
+Custom CSS
+
+/* ===============
+   Global style changes
+================ */
+
+
+body{
+background: -moz-linear-gradient(top, rgba(125,185,232,0) 0%,
+rgba(178,193,131,0.5) 50%, rgba(178,193,131,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(125,185,232,0)
+0%,rgba(178,193,131,0.5) 50%,rgba(178,193,131,1) 100%); /*
+Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(125,185,232,0)
+0%,rgba(178,193,131,0.5) 50%,rgba(178,193,131,1) 100%); /* W3C, IE10+,
+FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+hr {
+    border-bottom: 1px dashed #000;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+a{
+  color: #000;
+}
+a:hover, a:focus{
+  color: rgb(255, 0, 0);
+}
+.pagination > .active > a, .pagination > .active > span, .pagination >
+.active > a:hover, .pagination > .active > span:hover, .pagination >
+.active > a:focus, .pagination > .active > span:focus{
+  color: #000;
+  background-color: rgb(209, 218, 180);
+  border-color: #000;
+}
+
+.page-header {
+   *border-bottom: 1px dashed #afafaf;
+   border-bottom: 1px dashed #000;
+}
+#page-nav{
+  *background: rgba(159, 221, 137, 0.5);
+  *background: rgb(206, 237, 193);
+  background: rgb(209, 218, 180);
+}
+.category-list-item-inner, .product-list-item {
+  *background: rgba(159, 221, 137, 0.5);
+  background: rgb(238, 238, 238);
+  border-radius: 6px;
+  *border: solid 1px #afafaf;
+  border: solid 2px  rgba(159, 221, 137, 1);
+}
+.category-list-label{
+  font-size: 10pt;
+}
+.product-list-label{
+  font-size: 10pt;
+}
+.product-list-item {
+  margin: 0px 0px 5px 0px;
+}
+.product-list-image {
+ border-radius: 6px;
+}
+.product-list-price{
+  background: rgb(255, 0, 0);
+ }
+.product-image-large img{
+  border: solid 2px  rgba(159, 221, 137, 1);
+}
+
+/* ===============
+   custom navbar styles
+================ */
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover{
+height:100%;
+}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav >
+.open > a:focus, .navbar-default .navbar-nav > .open > a:hover {
+  background: #98B975;
+}
+.navbar-default .navbar-nav > li > a{
+  color:  #000;
+}
+.navbar-default #login_link{
+visibility: hidden;
+}
+.dropdown-menu > li > a:focus, .dropdown-menu > li > a:hover {
+ background-color: #000;
+}
+#secondary-nav {
+  border-style: solid;
+  border-width: 1px;
+}
+.navbar-right #search {
+ padding: none;
+width: 160px;
+}
+/* ===============
+   custom carousel styles
+================ */
+.carousel-caption{
+text-transform: uppercase;
+top: 20%;
+bottom: 0;
+width: 60%;
+}
+.carousel-caption h1{
+font-weight: bold;
+color: #000;
+background-color: rgba(255, 255, 255, 0.3);
+}
+.carousel-caption p{
+font-size: 130%;
+color: #FFF;
+}
+/* ===============
+   Custom styles
+================ */
+.card {
+  height: 100%;
+}
+.jumbotron.jumbotron-fluid{
+  border: solid 2px  rgba(159, 221, 137, 1);
+}
+#slider_p{
+  color: #fff;
+  text-align: justify;
+  text-shadow: 1px 1px #000;
+}
+#slider_ol{
+  color: #fff;
+  text-shadow: 1px 1px #000;
+}
+.page-text-container{
+   background: rgba(238, 238, 238, 0.9);  
+   border-radius: 6px;
+   margin-right: 5px;
+   padding: 10px 10px 10px 10px;
+   border: solid 2px rgba(159, 221, 137, 1);
+}
+.page-image-embed{
+   display: table;
+   text-align: center;
+   vertical-align: middle;
+   border-radius: 6px;
+   box-shadow: 5px 5px #888888;
+   padding: 3px 3px 3px 3px;
+}
+.page-iframe{
+  width: 100%;
+  height: 1300px;
+   border: solid 2px  rgba(159, 221, 137, 1);
+}
+.google-map{
+  border: solid 2px  rgba(159, 221, 137, 1);
+}
+
+
+INDEX PAGE
+
+<meta name="p:domain_verify" content="7e78d425da31aadc30d1994dbfd384be"/>
+<p>&nbsp;</p>
+
+<div class="site-section">
+<div class="container">
+<div class="row">
+<div class="col-sm-12 text-center"><img alt="" src="//s3.amazonaws.com/ricochet-pos-cdn/uploads/simplyhomeconsig/1523459014_house-158939.svg.png" style="width: 800px;" />
+<div class="site-section">
+<h1>Simply Home Consignments &amp; Gifts</h1>
+
+<h2>&#39;Where you always feel like family&#39;</h2>
+
+<p style="text-align: justify;">Located in Longmont, CO., Simply Home is&nbsp;a new kind of marketplace for pre-owned highend home furnishings, decor, womens&nbsp;clothing, small amounts of mens apparel,&nbsp;shoes, handbags, and jewelry. We provide a unique opportunity for shoppers to gain access to exclusive brands, to-the-trade only pieces, fine furniture, with some unique vintage and antique finds in the mix.&nbsp; All conveniently available in our physical location or our online presence.&nbsp; Our inventory changes daily, so shopping with us is always a unique experience, with unexpected discoveries.&nbsp; We also offer a wide selection of new custom design pieces, local artisian work and unbelieveable gifts.</p>
+
+<p style="text-align: justify;">We have an ever-revolving inventory of fun and functional furniture and accessories in a relaxed and easy to shop atmosphere. We are a spectrum of design styles from modern with vintage, eclectic with traditional, funky with formal and everything in between. &nbsp;You&#39;ll never know what you&#39;ll find behind our doors!</p>
+
+<p style="text-align: justify;">Located in Longmont, CO., Simply Home is&nbsp;a new kind of marketplace for pre-owned highend home furnishings, decor, womens&nbsp;clothing, small amounts of mens apparel,&nbsp;shoes, handbags, and jewelry. We provide a unique opportunity for shoppers to gain access to exclusive brands, to-the-trade only pieces, fine furniture, with some unique vintage and antique finds in the mix.&nbsp; All conveniently available in our physical location or our online presence.&nbsp; Our inventory changes daily, so shopping with us is always a unique experience, with unexpected discoveries.&nbsp; We also offer a wide selection of new custom design pieces, local artisian work and unbelieveable</p>
+
+<p style="text-align: justify;">Our philosophy is to provide creative local consumers with unique, well-made, long-lasting and reasonably priced pieces of furniture so they can design their own spaces in a meaningful way.&nbsp; We would love to be your creative resource and have a passion for listening and understanding your needs.</p>
+
+<p style="text-align: justify;">We are NOT your ordinary resale shop! Our 5,400 square foot showroom in Longmont, CO. is open to the public 6-days a week. We specialize in selling pre-owned furniture, decor, art, clothing, accessories, and jewelry.</p>
+
+<p style="text-align: justify;">SO, STOP - SHOP - SAVE!! We have a great variety and selection of clean pre-owned and NEW items. SEEING IS BELIEVING! Our huge inventory changes daily.&nbsp; So, whether it&#39;s a Family Room, Kitchen, Bedroom or Patio, our courteous staff is ready to assist your personal needs!</p>
+
+<p style="text-align: justify;">PRACTICAL &amp; DEPENDABLE! We are a NEW alternative to shopping PRE-OWNED and a SMART alternative when shopping NEW.</p>
+</div>
+
+<div class="row">
+<div class="col-md-4"><img alt="Leather Sofa | Simply Home Consignments" src="https://ricoconsign-assets.s3.us-west-2.amazonaws.com/f279c20b29f147808de0716cdb4c16e5/images/4699-5d33b73222899.jpg" style="border-width: 2px; border-style: solid; width: 300px; height: 200px;" /></div>
+
+<div class="col-md-4"><img alt="Sofa" src="https://ricoconsign-assets.s3.us-west-2.amazonaws.com/f279c20b29f147808de0716cdb4c16e5/images/646f-5c79d5004883a.jpg" style="border-width: 2px; border-style: solid; width: 300px; height: 200px;" /></div>
+
+<div class="col-md-4"><img alt="Stone Table &amp; Chairs | Simply Home Consignments" src="https://ricoconsign-assets.s3.us-west-2.amazonaws.com/f279c20b29f147808de0716cdb4c16e5/images/87ee-5d33b7a127cc0.jpg" style="border-width: 2px; border-style: solid; width: 300px; height: 200px;" /></div>
+</div>
+
+<div class="site-section">
+<div class="container">
+<div class="row">
+<div class="col-sm-6">
+<h2>Located At:</h2>
+
+<p>Sherman Village Shopping Center</p>
+
+<p>1225 Ken Pratt Blvd., Suite 124</p>
+
+<p>Longmont, CO. 80504</p>
+</div>
+
+<div class="col-sm-6">
+<h2>Store Hours:</h2>
+
+<p>Monday || CLOSED</p>
+
+<p>Tues - Sat || 10:00 - 5:30PM</p>
+
+<p>Sunday || 11:00 - 4:00PM</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="site-section">
+<div class="container">
+<div class="row">
+<div class="col-sm-12 text-center">
+<h2>So, What is Consignment?</h2>
+
+<p style="text-align: justify;">Many people hear the word &quot;consignment shop&quot; and think &quot;thrift store&quot; with used clothes, old antiques and forgotten collectibles. Although there are many places that resemble this kind of shopping experience, many consignment shops can be very upscale environments that shoppers can visit to purchase high-end, brand name, current and desirable items at incredible discounts! Most upscale consignment shops only accept &quot;like new&quot; merchandise that is in excellent condition. Consignment shoppers can often find great value in unique furnishings, expensive lighting, lavish area rugs, beautiful home decor, clothing, accessories and even jewelry.</p>
+
+<p style="text-align: justify;">Consignment or the process of consigning means that someone who owns these these items, known as the &quot;consignor&quot;, wants to sell their valuables and seeks a venue where they can be displayed properly and be accessible to thousands of shoppers which gives them a greater chance to make the sale quickly with very little effort. That venue is a consignment shop. The owner of the consignment shop is known as the &quot;consignee&quot;. The ownership of everything for sale or &quot;consigned&quot; remains that of the seller or &quot;consignor&quot; until those pieces are sold by the consignee at their consignment shop or the agreement expires.</p>
+
+<p>&nbsp;</p>
+
+<p align="center"><iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="400" src="https://www.youtube.com/embed/7IlpWkKAH6o" width="730"></iframe></p>
+
+<p>&nbsp;</p>
+
+<div class="row">
+<div class="col-md-4"><img alt="Party Glasses | Simply Home Consignments" src="https://ricoconsign-assets.s3.us-west-2.amazonaws.com/f279c20b29f147808de0716cdb4c16e5/images/2050-5d33b51f96a48.jpg" style="border-width: 2px; border-style: solid; width: 300px; height: 200px;" /></div>
+
+<div class="col-md-4"><img alt="Vases and Baskets | Simply Home Consignments" src="https://ricoconsign-assets.s3.us-west-2.amazonaws.com/f279c20b29f147808de0716cdb4c16e5/images/6cef-5d33b5c343d2c.jpg" style="border-width: 2px; border-style: solid; width: 300px; height: 200px;" /></div>
+
+<div class="col-md-4"><img alt="Great Party Plates | Simply Home Consignments" src="https://ricoconsign-assets.s3.us-west-2.amazonaws.com/f279c20b29f147808de0716cdb4c16e5/images/921c-5d33b5505f917.jpg" style="border-width: 2px; border-style: solid; width: 300px; height: 200px;" /></div>
+</div>
+
+<p>&nbsp;</p>
+
+<p style="text-align: justify;">The consignment shop who contracts with the consignee takes a commission, fee or percentage of the sale price for representing the consignor and allowing them to use their showroom, sales people, and overhead for the process of moving their inventory. Good consignment shops have a loyal following and high turnover because they are well known and carry quality unique merchandise so the consignor is well represented and their consigned items move quickly. Another reason is that pricing is reasonable, providing great value for the shopper and a quick sell for the shop and seller. But, in the case where a consigned item does not sell quickly, most shops have automatic price reductions in place in their contract where, after pre-established periods of time, the price is reduced until the item sells or reaches the end of it&#39;s contract period.</p>
+
+<p style="text-align: justify;">Consignment offers all these advantages to sellers and in addition the shop can arrange different items from various consignors and display them in a way that they appeal more to shoppers than they would if they just sat there by themselves. It also creates an atmosphere where more items will be sold because they all go together well and, as a whole when combined, look as if an interior decorator created an entire room. That is the sign of a good consignment shop&hellip; how talented they are at interior decorating, understanding their merchandise and marketing their client&#39;s items to the shopper.</p>
+
+<p>&nbsp;</p>
+
+<div class="row">
+<div class="col-md-4"><img alt="Set Glass Table &amp; Chairs | Simply Home Consignments" src="https://ricoconsign-assets.s3.us-west-2.amazonaws.com/f279c20b29f147808de0716cdb4c16e5/images/87ce-5d33b7d6d7492.jpg" style="border-width: 2px; border-style: solid; width: 300px; height: 200px;" /></div>
+
+<div class="col-md-4"><img alt="Fusion Mineral Paint | Simply Home Consignmenets" src="https://ricoconsign-assets.s3.us-west-2.amazonaws.com/f279c20b29f147808de0716cdb4c16e5/images/f90c-5d33b8835c9f9.jpg" style="border-width: 2px; border-style: solid; width: 301px; height: 200px;" /></div>
+
+<div class="col-md-4"><img alt="Lighting | Simply Home Consignments" src="https://ricoconsign-assets.s3.us-west-2.amazonaws.com/f279c20b29f147808de0716cdb4c16e5/images/98de-5d33b92deea2f.jpg" style="border-width: 2px; border-style: solid; width: 300px; height: 200px;" /></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="site-section">
+<div class="container">
+<div class="row">
+<div class="col-sm-12 text-center">
+<h2>1 Minute Quick Tour</h2>
+
+<p align="center"><iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="400" src="https://www.youtube.com/embed/c8TvyTr5yPM" width="730"></iframe></p>
+
+<div cclass="col-sm-12 text-center" id="mni-membership-636878435467975573"><script src="https://longmontco.chambermaster.com/Content/Script/Member.js" type="text/javascript"></script><script type="text/javascript">new MNI.Widgets.Member("mni-membership-636878435467975573",{member:7351,styleTemplate:"#@id{text-align:center;position:relative}#@id .mn-widget-member-name{font-weight:700}#@id .mn-widget-member-logo{max-width:100%}"}).create();</script></div>
+</div>
+</div>
+</div>
+</div>
+
+
+ABOUT US
+
+<div class="page-text-container">
+<h2 class="display-3" style="text-align: center;font-family: 'IM Fell English', serif;"><img alt="" src="//s3.amazonaws.com/ricochet-pos-cdn/uploads/simplyhomeconsig/1523459014_house-158939.svg.png" style="width: 619px; height: 76px;" /></h2>
+
+<h2 class="display-3" style="text-align: center;font-family: 'IM Fell English', serif;"><strong>Simply Home Consignments &amp; Gifts</strong></h2>
+
+<h3 class="display-3" style="text-align: center;">&#39;Where you always feel like family&#39;</h3>
+
+<p>&nbsp;</p>
+
+<p>Simply Home Consignments &amp; Gifts&nbsp;is one of Longmont&#39;s finest local consignment stores.&nbsp; We carry all types of furniture (new &amp; used), home decor, womens and select mens clothing, shoes, accessories and hand bags.&nbsp;We are a NEW alternative to shopping PRE-OWNED and a SMART alternative when shopping NEW. &nbsp;We have an ever-revolving inventory of fun and functional furniture and accessories in a relaxed and easy to shop atmosphere. &nbsp;We are a spectrum of design styles from modern with vintage, eclectic with traditional, funky with formal and everything in between.</p>
+
+<p>&nbsp;</p>
+
+<div class="row">
+<div class="col-md-4"><img alt="Power Sofa | Simply Home Consignments" src="https://ricoconsign-assets.s3.us-west-2.amazonaws.com/f279c20b29f147808de0716cdb4c16e5/images/b1da-5d33c008e0a7f.jpg" style="border-width: 2px; border-style: solid; width: 300px; height: 200px;" /></div>
+
+<div class="col-md-4"><img alt="Vintage Vanity | Simply Home Consignments" src="https://ricoconsign-assets.s3.us-west-2.amazonaws.com/f279c20b29f147808de0716cdb4c16e5/images/544c-5d33bfbb7f71f.jpg" style="border-width: 2px; border-style: solid; width: 300px; height: 200px;" /></div>
+
+<div class="col-md-4"><img alt="Antique Sewing Machine | Simply Home Consignments" src="https://ricoconsign-assets.s3.us-west-2.amazonaws.com/f279c20b29f147808de0716cdb4c16e5/images/f937-5d33c042b8202.jpg" style="border-width: 2px; border-style: solid; width: 300px; height: 200px;" /></div>
+</div>
+
+<p>&nbsp;</p>
+
+<h3>Our Philosophy...</h3>
+
+<p style="text-align: justify;">Our philosophy is to provide creative local consumers with unique, well-made, long-lasting and reasonably priced pieces of furniture so that you can design your own spaces in a meaningful way. So, whether it&#39;s a Family Room, Kitchen, Bedroom or Patio, our courteous staff is ready to assist your personal needs!</p>
+
+<p>&nbsp;</p>
+
+<h3>Our Background...</h3>
+
+<p>We have many years of experience in the resale space and have developed great partnerships to bring you furniture, home decor, art, clothing, accessories and great gifts for your shopping needs.</p>
+&nbsp;
+
+<h3 style="clear: both;">Why Consign With Us...</h3>
+
+<p>We are offering a fair 50/50 split on the final sell price&nbsp;with all of our consignors for all of your items consigned.&nbsp; We are convenientely located off Ken Pratt Blvd and Sherman Street, in Longmont,&nbsp;which see approximately 65,000 cars daily.&nbsp; We have an extensive&nbsp;social following and e-commerce store to further extend our reach to customers.&nbsp; We have also partnered with local artisans and companies to bring you great handmade furniture, home decor and gifts.</p>
+
+<p>&nbsp;</p>
+
+<div class="row">
+<div class="col-md-4"><img alt="Furniture" src="https://ricoconsign-assets.s3.us-west-2.amazonaws.com/f279c20b29f147808de0716cdb4c16e5/images/549d-5c2d7c3121243.jpg" style="border-width: 2px; border-style: solid; width: 300px; height: 200px;" /></div>
+
+<div class="col-md-4"><img alt="Furniture" src="https://ricoconsign-assets.s3.us-west-2.amazonaws.com/f279c20b29f147808de0716cdb4c16e5/images/7d98-5c2d7c471d0ef.jpg" style="border-width: 2px; border-style: solid; width: 300px; height: 200px;" /></div>
+
+<div class="col-md-4"><img alt="Decor Print Wall Art | Simply Home Consignments" src="https://ricoconsign-assets.s3.us-west-2.amazonaws.com/f279c20b29f147808de0716cdb4c16e5/images/6ff6-5d33c0d0c90ba.jpg" style="border-width: 2px; border-style: solid; width: 300px; height: 200px;" /></div>
+</div>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<div id="mni-membership-636878435467975573">&nbsp;</div>
+<script src="https://longmontco.chambermaster.com/Content/Script/Member.js" type="text/javascript"></script><script type="text/javascript">
+new MNI.Widgets.Member("mni-membership-636878435467975573",{member:7351,styleTemplate:"#@id{text-align:center;position:relative}#@id .mn-widget-member-name{font-weight:700}#@id .mn-widget-member-logo{max-width:100%}"}).create();
+</script></div>
+
+<h1 style="text-align: center;">Contact Us</h1>
+
+<div class="jumbotron jumbotron-fluid"><iframe allow="geolocation; microphone; camera" allowfullscreen="true" allowtransparency="true" frameborder="0" id="JotFormIFrame-81115989409163" onload="window.parent.scrollTo(0,0)" scrolling="no" src="https://form.jotform.com/81115989409163" style="width: 1px;
+      min-width: 100%;
+      height:539px;
+      border:none;"></iframe><script type="text/javascript">
+      var ifr = document.getElementById("JotFormIFrame-81115989409163");
+      if(window.location.href && window.location.href.indexOf("?") > -1) {
+        var get = window.location.href.substr(window.location.href.indexOf("?") + 1);
+        if(ifr && get.length > 0) {
+          var src = ifr.src;
+          src = src.indexOf("?") > -1 ? src + "&" + get : src  + "?" + get;
+          ifr.src = src;
+        }
+      }
+      window.handleIFrameMessage = function(e) {
+        var args = e.data.split(":");
+        if (args.length > 2) { iframe = document.getElementById("JotFormIFrame-" + args[(args.length - 1)]); } else { iframe = document.getElementById("JotFormIFrame"); }
+        if (!iframe) { return; }
+        switch (args[0]) {
+          case "scrollIntoView":
+            iframe.scrollIntoView();
+            break;
+          case "setHeight":
+            iframe.style.height = args[1] + "px";
+            break;
+          case "collapseErrorPage":
+            if (iframe.clientHeight > window.innerHeight) {
+              iframe.style.height = window.innerHeight + "px";
+            }
+            break;
+          case "reloadPage":
+            window.location.reload();
+            break;
+          case "loadScript":
+            var src = args[1];
+            if (args.length > 3) {
+                src = args[1] + ':' + args[2];
+            }
+            var script = document.createElement('script');
+            script.src = src;
+            script.type = 'text/javascript';
+            document.body.appendChild(script);
+            break;
+          case "exitFullscreen":
+            if      (window.document.exitFullscreen)        window.document.exitFullscreen();
+            else if (window.document.mozCancelFullScreen)   window.document.mozCancelFullScreen();
+            else if (window.document.mozCancelFullscreen)   window.document.mozCancelFullScreen();
+            else if (window.document.webkitExitFullscreen)  window.document.webkitExitFullscreen();
+            else if (window.document.msExitFullscreen)      window.document.msExitFullscreen();
+            break;
+        }
+        var isJotForm = (e.origin.indexOf("jotform") > -1) ? true : false;
+        if(isJotForm && "contentWindow" in iframe && "postMessage" in iframe.contentWindow) {
+          var urls = {"docurl":encodeURIComponent(document.URL),"referrer":encodeURIComponent(document.referrer)};
+          iframe.contentWindow.postMessage(JSON.stringify({"type":"urls","value":urls}), "*");
+        }
+      };
+      if (window.addEventListener) {
+        window.addEventListener("message", handleIFrameMessage, false);
+      } else if (window.attachEvent) {
+        window.attachEvent("onmessage", handleIFrameMessage);
+      }
+      </script></div>
+
+
+PRIVACY POLICY
+
+<p style="text-align: justify;"><img alt="Simply Home Banner Header" src="//s3.amazonaws.com/ricochet-pos-cdn/uploads/simplyhomeconsig/1523503761_house-158939.svg.png" style="width: 619px; height: 76px;" /></p>
+
+<p style="text-align: justify;">Your privacy is very important to us. Accordingly, we have developed this Policy in order for you to understand how we collect, use, communicate and disclose and make use of personal information. The following outlines our privacy policy.</p>
+
+<ul class="disc">
+	<li>Before or at the time of collecting personal information, we will identify the purposes for which information is being collected.</li>
+	<li>We will collect and use personal information solely with the objective of fulfilling those purposes specified by us and for other compatible purposes, unless we obtain the consent of the individual concerned or as required by law.</li>
+	<li>We will only retain personal information as long as necessary for the fulfillment of those purposes.</li>
+	<li>We will collect personal information by lawful and fair means and, where appropriate, with the knowledge or consent of the individual concerned.</li>
+	<li>Personal data should be relevant to the purposes for which it is to be used, and, to the extent necessary for those purposes, should be accurate, complete, and up-to-date.</li>
+	<li>We will protect personal information by reasonable security safeguards against loss or theft, as well as unauthorized access, disclosure, copying, use or modification.</li>
+	<li>We will make readily available to customers information about our policies and practices relating to the management of personal information.</li>
+</ul>
+
+<p style="text-align: justify;">We are committed to conducting our business in accordance with these principles in order to ensure that the confidentiality of personal information is protected and maintained.</p>
+
+<p>&nbsp;</p>
+
+<h5><strong>WHAT WE DO WITH YOUR INFORMATION</strong></h5>
+
+<p style="text-align: justify;">When you purchase something from our store, as part of the buying and selling process, we collect the personal information you give us such as your name, address and email address.</p>
+
+<p style="text-align: justify;">When you browse our store, we also automatically receive your computer&rsquo;s internet protocol (IP) address in order to provide us with information that helps us learn about your browser and operating system.</p>
+
+<p style="text-align: justify;">Email marketing (if applicable): With your permission, we may send you emails about our store, new products and other updates.</p>
+
+<h5><strong>CONSENT</strong></h5>
+
+<p style="text-align: justify;"><strong>How do you get my consent?</strong></p>
+
+<p style="text-align: justify;">When you provide us with personal information to complete a transaction, verify your credit card, place an order, arrange for a delivery or return a purchase, we imply that you consent to our collecting it and using it for that specific reason only.</p>
+
+<p style="text-align: justify;">If we ask for your personal information for a secondary reason, like marketing, we will either ask you directly for your expressed consent, or provide you with an opportunity to say no.</p>
+
+<p style="text-align: justify;"><strong>How do I withdraw my consent?</strong></p>
+
+<p style="text-align: justify;">If after you opt-in, you change your mind, you may withdraw your consent for us to contact you, for the continued collection, use or disclosure of your information, at anytime, by contacting us at info@simplyhomeconsignments.com or mailing us at: Simply Home Consignments &amp; Gifts, 1225 Ken Pratt Blvd, Suite 124, Longmont, CO. 80501, United States</p>
+
+<h5><strong>DISCLOSURE</strong></h5>
+
+<p style="text-align: justify;">We may disclose your personal information if we are required by law to do so or if you violate our Terms of Service.</p>
+
+<h5><strong>RICOCHET</strong></h5>
+
+<p style="text-align: justify;">Our store is hosted on Amazon AWS via Ricochet Consignment Software. They provide us with Cloud POS and e-commerce platform that allows us to sell our products and services to you. Your data is stored through AWS data storage, Ricochet databases and the general Ricochet software application. Your data is stored on secure servers behind firewalls.</p>
+
+<h5><strong>THIRD-PARTY SERVICES</strong></h5>
+
+<p style="text-align: justify;">In general, the third-party providers used by us will only collect, use and disclose your information to the extent necessary to allow them to perform the services they provide to us.</p>
+
+<p style="text-align: justify;">However, certain third-party service providers, such as payment gateways and other payment transaction processors, have their own privacy policies in respect to the information we are required to provide to them for your purchase-related transactions.</p>
+
+<p style="text-align: justify;">For these providers, we recommend that you read their privacy policies so you can understand the manner in which your personal information will be handled by these providers.</p>
+
+<h5><strong>SECURITY</strong></h5>
+
+<p style="text-align: justify;">To protect your personal information, we take reasonable precautions and follow industry best practices to make sure it is not inappropriately lost, misused, accessed, disclosed, altered or destroyed.</p>
+
+<p style="text-align: justify;">If you provide us with your credit card information, the information is encrypted using secure socket layer technology (SSL) and stored with a AES-256 encryption. Although no method of transmission over the Internet or electronic storage is 100% secure, we follow all PCI-DSS requirements and implement additional generally accepted industry standards.</p>
+
+<h5><strong>COOKIES</strong></h5>
+
+<p style="text-align: justify;">simplyhomeconsignments.com uses tacking cookies, such as Google Analytics and may use 3rd party vendor re-marketing tracking cookies, including the Google Adwords tracking cookie.</p>
+
+<p style="text-align: justify;">This means we will continue to show ads to you across the internet, specifically on the Google Content Network (GCN). As always we respect your privacy and are not collecting any identifiable information through the use of Google&rsquo;s or any other 3rd party remarketing system. The third-party vendors, including Google, whose services we use &ndash; will place cookies on web browsers in order to serve ads based on past visits to our website. &ndash; Third party vendors, including Google, use cookies to serve ads based on a user&rsquo;s prior visits to your website. This allows us to make special offers and continue to market our products to those who have shown interest in Simply Home Consignments &amp; Gifts.</p>
+
+<h5><strong>AGE OF CONSENT</strong></h5>
+
+<p style="text-align: justify;">By using this site, you represent that you are at least the age of majority in your state or province of residence, or that you are the age of majority in your state or province of residence and you have given us your consent to allow any of your minor dependents to use this site.</p>
+
+<h5><strong>CHANGES TO THIS PRIVACY POLICY</strong></h5>
+
+<p style="text-align: justify;">We reserve the right to modify this privacy policy at any time, so please review it frequently. Changes and clarifications will take effect immediately upon their posting on the website. If we make material changes to this policy, we will notify you here that it has been updated, so that you are aware of what information we collect, how we use it, and under what circumstances, if any, we use and/or disclose it.</p>
+
+<p style="text-align: justify;">If our store is acquired or merged with another company, your information may be transferred to the new owners so that we may continue to sell products to you.</p>
+
+<h5><strong>QUESTIONS AND CONTACT INFORMATION</strong></h5>
+
+<p style="text-align: justify;">If you would like to: access, correct, amend or delete any personal information we have about you, register a complaint, or simply want more information contact us at info@simplyhomeconsignments.com or by mail at Simply Home Consignments &amp; Gifts, 1225 Ken Pratt Blvd, Suite 124, Longmont, CO. 80501.</p>
+
+
+WEBSITE TERMS OF SERVICE
+
+<div class="sixteen columns">
+<div class="section clearfix">
+<h5><img alt="Simply Home Banner Header" src="//s3.amazonaws.com/ricochet-pos-cdn/uploads/simplyhomeconsig/1523503978_house-158939.svg.png" style="width: 619px; height: 76px;" /></h5>
+
+<h5><strong>INTRODUCTION</strong></h5>
+
+<p style="text-align: justify;">This agreement contains the terms and conditions that apply when using our website. By using or shopping from this website, you agree to be bound by the terms of use and comply with them. This agreement describes the agreement between us, and supersedes all prior or contemporaneous agreements, representations, warranties and understandings with respect to the website, the content and computer programs provided by or through the website, and the subject matter of this agreement. Amendments to this agreement can be made and effected by us from time to time without specific notice to you. Agreement posted on the Site reflects the latest agreement and you should carefully review the same before you use our site.</p>
+
+<h5><strong>USE OF THE SITE &amp; PROHIBITIONS</strong></h5>
+
+<p style="text-align: justify;">The website allows you to shop online. However, you are prohibited from doing the following: (a) use our sites, including its services and or tools if you are not able to form legally binding contracts, are under the age of 18, or are temporarily or indefinitely suspended from using our sites, services, or tools (b) posting of items in inappropriate category or areas on our sites and services; (c) collecting information about users&rsquo; personal information; (d) maneuvering the price of any item or interfering with listings; (f) posting false, inaccurate, misleading, defamatory, or libelous content; (g) taking any action that may damage the rating system.</p>
+
+<p style="text-align: justify;">In order to complete the purchase process on our site, you must provide your full legal name, current address, a valid email address, and any additional information requested. You must be 18 years of age or older and must be responsible for keeping your information and password secure. You must not transmit any worms or viruses or any code of a destructive nature.</p>
+
+<h5><strong>PAYMENTS</strong></h5>
+
+<p style="text-align: justify;">Our websites, simplyhomeconsignments.com, and any other online venue, has the sole discretion to provide the terms of payment. Unless otherwise agreed, payment must first be received by us prior to the latter&rsquo;s acceptance of an order. Unless credit terms have been agreed upon, payment for the products shall be made by credit card, or paypal.</p>
+
+<h5><strong>REFUND POLICY</strong></h5>
+
+<p style="text-align: justify;">All sales are final. We will not grant a refund if you have changed your mind about a particular purchase, so please choose carefully. If the goods are faulty, we will meet our obligations under the applicable laws.</p>
+
+<h5><strong>RISK OF LOSS</strong></h5>
+
+<p style="text-align: justify;">All items purchased from our website are made pursuant to a shipment contract. The risk of loss and title for such items pass to you upon our delivery to the carrier. If you would like to purchase insurance or request a signature at the time of delivery, please contact us. We will send you an additional invoice and will be sure to comply with your request.</p>
+
+<h5><strong>EDITING, DELETING AND MODIFICATION</strong></h5>
+
+<p style="text-align: justify;">We may edit, delete or modify any of the terms and conditions contained in this agreement, at any time and in our sole discretion, by posting a notice or a new agreement on our site.</p>
+
+<h5><strong>ACKNOWLEDGMENT OF RIGHTS</strong></h5>
+
+<p style="text-align: justify;">You hereby acknowledge that all rights, titles and interests, including but not limited to rights covered by the Intellectual Property Rights, in and to the site, and that you will not acquire any right, title, or interest in or to the Program except as expressly set forth in this agreement. You will not modify, adapt, translate, prepare derivative works from, decompile, reverse engineer, disassemble or otherwise attempt to derive source code from any of our services, software, or documentation, or create or attempt to create a substitute or similar service or product through use of or access to the Program or proprietary information related thereto.</p>
+
+<h5><strong>FRAUD</strong></h5>
+
+<p style="text-align: justify;">Fraudulent activities are monitored in our site and if fraud is detected simplyhomeconsignments.com shall pursue all remedies available to us, and you shall be responsible for all costs and legal fees arising from these fraudulent activities.</p>
+
+<h5><strong>CONFIDENTIALITY</strong></h5>
+
+<p style="text-align: justify;">You agree not to disclose information you obtain from us and or from our clients, advertisers and suppliers. All information submitted by an end-user customer is proprietary information of our company/website. Such customer information is confidential and may not be disclosed. Publisher agrees not to reproduce, disseminate, sell, distribute or commercially exploit any such proprietary information in any manner.</p>
+
+<h5><strong>MISCELLANEOUS</strong></h5>
+
+<p style="text-align: justify;">This agreement shall be governed by and construed in accordance with the substantive laws of Colorado, without any reference to conflict-of-laws principles.</p>
+
+<p style="text-align: justify;">Any dispute, controversy or difference which may arise between the parties out of, in relation to or in connection with this agreement is hereby irrevocably submitted to the exclusive jurisdiction of the courts of Colorado, to the exclusion of any other courts without giving effect to its conflict of laws provisions or your actual state or country of residence.</p>
+
+<p style="text-align: justify;">The entire agreement between the parties with respect to the subject matter hereof is embodied on this agreement and no other agreement relative hereto shall bind either party herein.</p>
+
+<p style="text-align: justify;">Your rights of whatever nature cannot be assigned nor transferred to anybody, and any such attempt may result in termination of this Agreement, without liability to us. However, we may assign this Agreement to any person at any time without notice.</p>
+
+<p style="text-align: justify;">In the event that any provision of these Terms and Conditions is found invalid or unenforceable pursuant to any judicial decree or decision, such provision shall be deemed to apply only to the maximum extent permitted by law, and the remainder of these Terms and Conditions shall remain valid and enforceable according to its terms.</p>
+</div>
+</div>
+
+CONSIGNMENT GUIDELINES
+
+<div class="row">
+<div class="jumbotron jumbotron-fluid">
+<h2 class="display-3" style="text-align: center;font-family: 'IM Fell English', serif;"><img alt="" src="//s3.amazonaws.com/ricochet-pos-cdn/uploads/simplyhomeconsig/1523459014_house-158939.svg.png" style="width: 619px; height: 76px;" /></h2>
+
+<h2 class="display-3" style="text-align: center;font-family: 'IM Fell English', serif;"><strong>Simply Home Consignments &amp; Gifts</strong></h2>
+
+<h3 class="display-3" style="text-align: center;">&#39;Where you always feel like family&#39;</h3>
+
+<p>&nbsp;</p>
+
+<h2 style="text-align: center;font-family: 'IM Fell English', serif;">Consignment Guidelines</h2>
+
+<div english="" fell="" im="" style="text-align: justify;">Thank you for considering Simply Home for your consignment needs.&nbsp; We appreciate your business and would like your consignment with us to be as smooth and straight forward as possible.&nbsp; Below are guideline you should follow for consignment of your items.&nbsp; If you have further questions regarding consignment prior to visiting the store, please feel free to contact us at (720)340-8004&nbsp;or email at <a href="mailto:info@simplyhomeconsignments.com?subject=Consignment%20Questions%20from%20Website">info@simplyhomeconsignments.com</a></div>
+
+<div english="" fell="" im="" style="font-family: ">&nbsp;</div>
+
+<div english="" fell="" im="" style="font-family: "><strong>We accept items during the following days and times:</strong></div>
+
+<div english="" fell="" im="" style="font-family: ">Unless we are extremely full, we do accept consignment on a daily basis, <span style="color:#c0392b;">Tuesday - Saturday from 11AM - 4:30PM.&nbsp; Sunday&#39;s from 12PM - 3:00PM.&nbsp; If we are not accepting items for a given day, signage should be posted on our doors.&nbsp; (Yellow signs if we are not accepting&nbsp;clothing and pink signs for furniture and decor)</span></div>
+
+<div english="" fell="" im="" style="font-family: ">&nbsp;</div>
+
+<h2 style="font-family: &quot;IM Fell English&quot;, serif;">Clothing Guidelines:</h2>
+
+<ol>
+	<li english="" fell="" im="" style="text-align: justify;">Walk-in clothing/accessory consignment is welcome, typically on a daily basis, but limited&nbsp;to <span style="color:#c0392b;"><strong>10 total items</strong></span> per consignor. <span style="color:#c0392b;">Our cut-off for walk-in clothing/accessory consignment is <strong>10 consignors per day</strong></span>.&nbsp; This is to ensure we can process your items in a timely manner.</li>
+	<li english="" fell="" im="" style="text-align: justify;">If you have <strong>more than 10 items, but less than 25</strong>, you may either call, email or use our&nbsp;<button class="btn btn-success" onclick="location.href='https://www.simplyhomeconsignments.com/store/Schedule'" type="button">online reservation system</button> to reserve a time to bring your items in.&nbsp; This is to ensure we have the appropriate staff on hand to process your items and the needs of other consignors.</li>
+	<li english="" fell="" im="" style="text-align: justify;"><strong>For 25+ items</strong>, we require you to contact us to schedule an appointment. You can either call at (720)340-8004 or email us at <a href="mailto:info@simplyhomeconsignments.com?subject=Clothing%20Consignment%2025%2B%20items">info@simplyhomeconsignments.com</a> to reserve a time to bring your items in.</li>
+	<li english="" fell="" im="" style="text-align: justify;"><span style="color:#c0392b;">PLEASE NOTE: When consigning, it is the consignors responsibility to keep track of the 60 day consignment cycle.&nbsp; No notifications are sent regarding the sell of an item or upon their expiration.&nbsp; However, we do provide online access to your consignor information and are always available to answer questions upon a call or email.&nbsp; We can not be responsible for clothing/accessory items that move to donation if they are not picked up by day 65.</span></li>
+</ol>
+
+<p style="text-align: justify; margin-left: 80px;"><strong>Please consider the following when bringing your items in for consignment.</strong></p>
+
+<ul style="margin-left: 80px;">
+	<li style="text-align: justify;"><strong>All clothing must be clean, wrinkle-free and on hangers.</strong></li>
+	<li style="text-align: justify;"><b>Clothing must have the manufacturer/size&nbsp;tag attached.</b></li>
+	<li style="text-align: justify;"><b>We do not accept any modified clothing.</b></li>
+	<li style="text-align: justify;"><b>Shoes and accessories should be clean and floor ready.</b></li>
+	<li style="text-align: justify;"><b>Jewelry should not be clumped together in a single bag.</b></li>
+	<li style="text-align: justify;"><b>We do not accept under garments.</b></li>
+</ul>
+
+<div class="row">
+<div class="col-md-4"><img alt="Dress and Necklace" src="https://ricoconsign-assets.s3.us-west-2.amazonaws.com/f279c20b29f147808de0716cdb4c16e5/images/6c40-5cc1751c838a9.jpg" style="border-width: 2px; border-style: solid; width: 301px; height: 200px;" /></div>
+
+<div class="col-md-4"><img alt="Furniture" src="https://ricoconsign-assets.s3.us-west-2.amazonaws.com/f279c20b29f147808de0716cdb4c16e5/images/d67d-5cb9ae25ce27c.jpg" style="border-width: 2px; border-style: solid; width: 300px; height: 200px;" /></div>
+
+<div class="col-md-4"><img alt="Cowboy Boots" src="https://ricoconsign-assets.s3.us-west-2.amazonaws.com/f279c20b29f147808de0716cdb4c16e5/images/b34b-5cc1754f47ed6.jpg" style="border-width: 2px; border-style: solid; width: 300px; height: 200px;" /></div>
+
+<div class="col-md-4">&nbsp;</div>
+</div>
+
+<h2 style="font-family: &quot;IM Fell English&quot;, serif;">Furniture Guidelines:</h2>
+
+<ol>
+	<li english="" fell="" im="" style="text-align: justify;">All large furniture requires prior acceptance and scheduling before arrival at the store.&nbsp; You may email photos to <a href="mailto:info@simplyhomeconsignments.com?subject=Items%20for%20Consideration">info@simplyhomeconsignments.com</a>, click on any<button class="btn btn-primary" onclick="location.href='https://www.simplyhomeconsignments.com/store/submit-items'" type="button">Consign with Us</button> button on the website, or bring photo&#39;s into the store.&nbsp; We provide a conditional acceptance of your items from photo.&nbsp; Primarily, as we can not verify items like drawer pulls, broken/loose feet verify extent of&nbsp;scratches/damage with a photo.&nbsp; The likelyhood of us declining an items after conditional approval is low, but it should be noted.</li>
+	<li english="" fell="" im="" style="text-align: justify;">You, the consignor,&nbsp;are responsible for bringing the items to the store, or hire an appropriate moving service.&nbsp; If you are bringing the items,<span style="color:#c0392b;">&nbsp;we <strong>require</strong> you to have adequate moving help with you</span>.</li>
+	<li english="" fell="" im="" style="text-align: justify;">Small furniture items and decor may be brought directly to the store without prior approval, but are <span style="color:#c0392b;">limited to 10-15 total items.</span>&nbsp; If you have more than that, please contact us prior to reserve a time to bring them in.</li>
+	<li english="" fell="" im="" style="text-align: justify;"><span style="color:#c0392b;">PLEASE NOTE: When consigning, it is the consignors responsibility to keep track of the 60 day consignment cycle.&nbsp; No notifications are sent regarding the sell of an item or upon their expiration.&nbsp; However, we do provide online access to your consignor information and are always available to answer questions upon a call or email.&nbsp; We can not be responsible for items that move to donation if they are not picked up by day 65.</span>&nbsp;</li>
+</ol>
+
+<div english="" fell="" im="" style="font-family: ">
+<p style="text-align: justify; margin-left: 80px;"><strong>Please consider the following when bringing your items in for consignment.</strong></p>
+
+<ul style="margin-left: 80px;">
+	<li style="text-align: justify;"><strong>All items must be clean, and floor ready upon arrival.&nbsp; <span style="color:#c0392b;">We may assess cleaning fees on any item that arrives dirty or requires special attention before hitting the sales floor.</span></strong></li>
+	<li style="text-align: justify;"><b>All walk-in decore items are limited to 10-15 per consignor.</b></li>
+	<li style="text-align: justify;"><span style="color:#e74c3c;">We cannot accept mattresses or nursery items with beds,&nbsp;bed frames and bedding.</span></li>
+</ul>
+</div>
+
+<div english="" fell="" im="" style="font-family: ">&nbsp;</div>
+
+<div english="" fell="" im="" style="font-family: "><span style="font-size:14px;"><strong>If you would prefer to contact us directly, please call (720)340-8004 or send email to info@simplyhomeconsignments.com</strong></span></div>
+
+<div english="" fell="" im="" style="font-family: ">&nbsp;</div>
+
+<p>&nbsp;</p>
+
+<div class="row">
+<div class="col-md-4"><img alt="Furniture Chair" src="https://ricoconsign-assets.s3.us-west-2.amazonaws.com/f279c20b29f147808de0716cdb4c16e5/images/eae2-5cc177bc1f5bc.jpg" style="border-width: 2px; border-style: solid; width: 300px; height: 200px;" /></div>
+
+<div class="col-md-4"><img alt="Furniture Sofa" src="https://ricoconsign-assets.s3.us-west-2.amazonaws.com/f279c20b29f147808de0716cdb4c16e5/images/99f0-5cc177d1b2ce3.jpg" style="border-width: 2px; border-style: solid; width: 300px; height: 200px;" /></div>
+
+<div class="col-md-4"><img alt="Furniture Table" src="https://ricoconsign-assets.s3.us-west-2.amazonaws.com/f279c20b29f147808de0716cdb4c16e5/images/417a-5cc177e595264.jpg" style="border-width: 2px; border-style: solid; width: 300px; height: 200px;" /></div>
+
+<div class="col-md-4">&nbsp;</div>
+</div>
+</div>
+</div>
+
+
+CONSIGN WITH US
+
+<div class="row">
+<div class="jumbotron jumbotron-fluid">
+<h2 class="display-3" style="text-align: center;font-family: 'IM Fell English', serif;"><img alt="" src="//s3.amazonaws.com/ricochet-pos-cdn/uploads/simplyhomeconsig/1523459014_house-158939.svg.png" style="width: 619px; height: 76px;" /></h2>
+
+<h2 class="display-3" style="text-align: center;font-family: 'IM Fell English', serif;"><strong>Simply Home Consignments &amp; Gifts</strong></h2>
+
+<h3 class="display-3" style="text-align: center;">&#39;Where you always feel like family&#39;</h3>
+
+<p>&nbsp;</p>
+
+<h2 style="text-align: center;font-family: 'IM Fell English', serif;">Before Submitting, Please Consider</h2>
+
+<div english="" fell="" im="" style="font-family: ">We are accepting new and used furniture, home decor, clothing, shoes, jewelry and accessories.&nbsp; We are unlikely to accept pieces that have severe stains, are visibly worn, or in need of major repairs and/or refinishing. However, if the pieces are considered to be highly sought after, we may still consider them even if the condition is not optimal.</div>
+
+<div english="" fell="" im="" style="font-family: "><span style="color:#c0392b;"><strong>NOTE:</strong> We cannot accept mattresses, nursery items or under garments.</span></div>
+
+<div english="" fell="" im="" style="font-family: ">&nbsp;</div>
+
+<div english="" fell="" im="" style="font-family: "><span style="font-size:14px;"><strong>If you would prefer to contact us directly, please call (720)340-8004 or send email to info@simplyhomeconsignments.com</strong></span></div>
+
+<div english="" fell="" im="" style="font-family: ">&nbsp;</div>
+
+<div style="text-align: justify;"><span style="color:#c0392b;"><strong>PLEASE NOTE:</strong> If you are a customer or first time submitter, you will be required to process a consignor agreement either at the time of your scheduled appointment or by following this link.</span><button class="btn btn-success" type="button">Consignor Agreement</button></div>
+
+<div style="font-family: &quot;IM Fell English&quot;, serif; font-size: 1em;">&nbsp;</div>
+
+<p>&nbsp;</p>
+
+<div class="row">
+<div class="col-md-4"><img alt="Furniture" src="https://ricoconsign-assets.s3.us-west-2.amazonaws.com/f279c20b29f147808de0716cdb4c16e5/images/c947-5c579c962750e.jpg" style="border-width: 2px; border-style: solid; width: 300px; height: 200px;" /></div>
+
+<div class="col-md-4"><img alt="Furniture" src="https://ricoconsign-assets.s3.us-west-2.amazonaws.com/f279c20b29f147808de0716cdb4c16e5/images/54cb-5c579cffe7c7d.jpg" style="border-width: 2px; border-style: solid; width: 300px; height: 200px;" /></div>
+
+<div class="col-md-4"><img alt="" src="https://ricoconsign-assets.s3.us-west-2.amazonaws.com/f279c20b29f147808de0716cdb4c16e5/images/e473-5c579e200ff82.jpg" style="border-width: 2px; border-style: solid; width: 300px; height: 200px;" /></div>
+
+<div class="col-md-4">&nbsp;</div>
+</div>
+</div>
+</div>
+
+<div class="jumbotron jumbotron-fluid">
+<p><script type="text/javascript" src="https://form.jotform.com/jsform/80825811209152"></script></p>
+</div>
+
+
+STORE AUCTION PORTAL
+
+<div class="jumbotron jumbotron-fluid">
+<h3>WHAT THE PORTAL IS NOT</h3>
+
+<p style="text-align: justify;font-family: 'IM Fell English', serif;font-size:1em;">Simply Homes Portal is NOT the location to gain access to your consignor account. If you would like to access your consignor account, please click &ldquo;<a href="http://www.simplyhomeconsignments.com/login">HERE</a>&rdquo;.</p>
+
+<p style="text-align: justify;font-family: 'IM Fell English', serif;font-size:1em;">Note: If this will be your first time accessing your consignor account, please reference either your consignor agreement or initial intake form email for username and password instructions. Feel free to contact us directly at (720)340-8004 or email us at <a href="mailto:info@simplyhomeconsignments.com?subject=Website%20Consignor%20Access%2FPortal%20Page%20Question">info@simplyhomeconsignments.com</a></p>
+</div>
+
+<div class="jumbotron jumbotron-fluid">
+<p><iframe class="page-iframe" src="https://simplyhomeportal.com"></iframe></p>
+</div>
+
+
+SCHEDULE APPOINTMENT
+
+<p><iframe class="page-iframe" height="1500px" src="https://simplyhomeportal.com/appointment/" width="100%"></iframe></p>
+
+
+OUR LOCATION
+
+<!-- Jumbotron Header -->
+<header class="jumbotron jumbotron-fluid">
+<div class="row">
+<div class="col-md-12">
+<h2 class="display-3" style="text-align: center;font-family: 'IM Fell English', serif;"><img alt="" src="//s3.amazonaws.com/ricochet-pos-cdn/uploads/simplyhomeconsig/1523459014_house-158939.svg.png" style="width: 619px; height: 76px;" /></h2>
+
+<h2 class="display-3" style="text-align: center;font-family: 'IM Fell English', serif;"><strong>Simply Home Consignments &amp; Gifts</strong></h2>
+
+<p style="text-align: justify;font-family: 'IM Fell English', serif;font-size:1em;">We are conveniently located in Longmont off Ken Pratt Blvd and Sherman St. in the Sherman Village shopping center, next to LePeep.</p>
+</div>
+
+<div class="col-md-4">
+<h4><span style="color:#E67E22;">Address:</span></h4>
+1225 Ken Pratt Blvd., Suite 124<br />
+Longmont, CO. 80501
+<h4><span style="color:#D35400;">Phone:</span></h4>
+(720)340-8004
+
+<h4><span style="color:#E67E22;">Email:</span></h4>
+<a href="mailto:info@simplyhomeconsignments.com">info@simplyhomeconsignments.com</a></div>
+
+<div class="col-md-4">&nbsp;</div>
+
+<div class="col-md-4">
+<h4><span style="color:#E67E22;">Business Hours:</span></h4>
+
+<ul>
+	<li><span>Monday :</span>&nbsp;CLOSED</li>
+	<li><span>Tuesday :</span> <span class="right">10:00am to 5:30pm</span></li>
+	<li><span>Wednesday :</span> <span class="right">10:00am to 5:30pm</span></li>
+	<li><span>Thursday :</span> <span class="right">10:00am to 5:30pm</span></li>
+	<li><span>Friday :</span> <span class="right">10:00am to 5:30pm</span></li>
+	<li><span>Saturday :</span> <span class="right">10:00am to 5:30pm</span></li>
+	<li><span>Sunday :</span> <span class="right">11:00am to 4:00pm</span></li>
+</ul>
+</div>
+</div>
+</header>
+
+<div class="row">
+<div class="col-md-4"><img alt="Furniture" src="https://ricoconsign-assets.s3.us-west-2.amazonaws.com/f279c20b29f147808de0716cdb4c16e5/images/b304-5c57a73f7ef68.jpg" style="border-width: 2px; border-style: solid; width: 300px; height: 200px;" /></div>
+
+<div class="col-md-4"><img alt="Furniture" src="https://ricoconsign-assets.s3.us-west-2.amazonaws.com/f279c20b29f147808de0716cdb4c16e5/images/2d37-5c57a7526013b.jpg" style="border-width: 2px; border-style: solid; width: 301px; height: 244px;" /></div>
+
+<div class="col-md-4"><img alt="" src="https://ricoconsign-assets.s3.us-west-2.amazonaws.com/f279c20b29f147808de0716cdb4c16e5/images/fba9-5c57a76a7e298.jpg" style="border-width: 2px; border-style: solid; width: 300px; height: 200px;" /></div>
+</div>
+
+<p>&nbsp;</p>
+
+<div class="row">
+<div class="col-md-12">
+<p style="text-align: justify;font-family: 'IM Fell English', serif;font-size:1em;">For driving directions from your location to ours, please click on the <strong>&quot;More Options&quot;</strong> link in the upper left corner of the map below.</p>
+</div>
+
+<div class="col-md-12 google-map">
+<p><iframe allowfullscreen="" frameborder="0" height="600" src="https://www.google.com/maps/embed/v1/directions?key=AIzaSyCgevBTzEvm3JuK5JAlvGRSsbDhpgJAuXQ&amp;origin=place_id:ChIJSTPM1Qj5a4cRNSej8-6hfcE&amp;destination=1225+ken+pratt+blvd+longmont+co" style="border:0" width="100%"></iframe></p>
+</div>
+</div>
+
+<hr />
+<h1 style="text-align: justify;font-family: 'IM Fell English', serif;">Other Local Locations</h1>
+
+<div class="row">
+<div class="col-md-12">
+<p style="text-align: justify;font-family: 'IM Fell English', serif;font-size:1em;">Longmont &amp; Boulder County are home to many great consignment and thrift stores. If you were unable to find the item(s) you were looking for at our location, please consider keeping it local.</p>
+</div>
+
+<div class="col-md-12 google-map">
+<p><iframe allowfullscreen="" frameborder="0" height="600" src="https://www.google.com/maps/embed/v1/search?key=AIzaSyCgevBTzEvm3JuK5JAlvGRSsbDhpgJAuXQ&amp;q=consignment+thrift+stores+in+boulder+county+co" style="border:0" width="100%"></iframe></p>
+</div>
+</div>
+
+
+CONTACT PAGE
+
+<div class="site-section">
+<div class="container">
+<div class="row">
+<div class="col-md-12">
+<h2 class="h3 mb-3 text-black">Get In Touch</h2>
+</div>
+
+<div class="col-md-12"><iframe allowfullscreen="" frameborder="0" height="300" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d184913.89173741135!2d-116.3739816040482!3d43.60072052872039!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54aef172e947b49d%3A0x9a5b989b36679d9b!2sBoise%2C+ID!5e0!3m2!1sen!2sus!4v1475772285257" style="border:0" width="100%"></iframe>
+
+<hr />
+<div class="row">
+<div class="col-md-6">
+<h4>Address</h4>
+
+<address><strong>Your Store Name</strong><br />
+555 Your St<br />
+City, State 55555</address>
+
+<h4>Phone</h4>
+
+<p>555-555-5555</p>
+
+<h4>Email</h4>
+
+<p><a href="mailto:doubleclickme@example.com">doubleclickme@example.com</a></p>
+</div>
+
+<div class="col-md-6">
+<h4>Business Hours</h4>
+
+<ul>
+	<li><span>Monday :</span> <span class="right">10am to 7pm</span></li>
+	<li><span>Tuesday :</span> <span class="right">10am to 7pm</span></li>
+	<li><span>Wednesday :</span> <span class="right">10am to 7pm</span></li>
+	<li><span>Thursday :</span> <span class="right">10am to 7pm</span></li>
+	<li><span>Friday :</span> <span class="right">10am to 7pm</span></li>
+	<li><span>Saturday :</span> <span class="right">10am to 5pm</span></li>
+	<li><span>Sunday :</span> <span class="right">11am to 5pm</span></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+VERSION 2 FOOTER
+
+<div class="col-md-6 col-lg-4">
+<div class="block-5 mb-5">
+<h3 class="footer-heading mb-4">Simply Home Consignments &amp; Gifts</h3>
+
+<ul class="list-unstyled">
+	<li class="address">1225 Ken Pratt Blvd., Suite 124 - Longmont, CO. 80501</li>
+	<li class="phone">(720) 340-8004</li>
+	<li class="email">info@simplyhomeconsignments.com</li>
+</ul>
+</div>
+</div>
+
+<div class="col-md-6 col-lg-3 mb-4 mb-lg-0">
+<h3 class="footer-heading mb-4">Normal Hours</h3>
+
+<ul class="list-unstyled">
+	<li>Monday - CLOSED</li>
+	<li>Tue-Sat - 10:00-5:30PM</li>
+	<li>Sunday - 11:00-4:00PM</li>
+</ul>
+</div>
+
+<div class="col-lg-5 ml-auto mb-5 mb-lg-0">
+<div class="row">
+<div class="col-md-12">
+<h3 class="footer-heading mb-4">Quick Links</h3>
+</div>
+
+<div class="col-md-6 col-lg-4">
+<ul class="list-unstyled">
+	<li><a href="/store/about-us">About</a></li>
+	<li><a href="/store/guidelines">Guidelines</a></li>
+	<li><a href="/store/submit-items">Consign</a></li>
+	<li><a href="/login">Login</a></li>
+</ul>
+</div>
+
+<div class="row">
+<div class="col-md-4" style="text-align: center;"><a href="https://www.facebook.com/simplyhomeconsignments" target="_blank"><img alt="Facebook" src="https://ricoconsign-assets.s3.us-west-2.amazonaws.com/f279c20b29f147808de0716cdb4c16e5/images/290d-5c79be8e8aaa5.png" style="border-width: 0px; border-style: solid; width: 60px; height: 60px; float: right;" /></a></div>
+
+<div class="col-md-4" style="text-align: center;"><a href="https://www.instagram.com/simplyhomeconsignments/" target="_blank"><img alt="Instagram" src="https://ricoconsign-assets.s3.us-west-2.amazonaws.com/f279c20b29f147808de0716cdb4c16e5/images/4bcc-5c79beb4ae2f3.png" style="border-width: 0px; border-style: solid; width: 60px; height: 60px;" /></a></div>
+
+<div class="col-md-4" style="text-align: center;"><a href="https://www.pinterest.com/mgreeott/" target="_blank"><img alt="Pinterest" src="https://ricoconsign-assets.s3.us-west-2.amazonaws.com/f279c20b29f147808de0716cdb4c16e5/images/51ca-5c79becc84bac.png" style="border-width: 0px; border-style: solid; width: 60px; height: 60px; float: left;" /></a></div>
+</div>
+</div>
+</div>
+

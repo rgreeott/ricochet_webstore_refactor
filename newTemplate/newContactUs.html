@@ -34,91 +34,110 @@
 <div class="site-container container-margin">
     <div class="container-fluid container-bkgnd shadow rounded p-3">
         <div class="row">
-            <!-- Contact Us Text & Form -->
             <div class="col-sm">
-                            
-            <iframe class="my-3" allow="geolocation; microphone; camera" allowfullscreen="true" allowtransparency="true" frameborder="0" id="JotFormIFrame-81115989409163" onload="window.parent.scrollTo(0,0)" scrolling="no" src="https://form.jotform.com/81115989409163" style="width: 1px; min-width: 100%; height:539px; border:none;"></iframe><script type="text/javascript">
-                var ifr = document.getElementById("JotFormIFrame-81115989409163");
-                if(window.location.href && window.location.href.indexOf("?") > -1) {
-                    var get = window.location.href.substr(window.location.href.indexOf("?") + 1);
-                    if(ifr && get.length > 0) {
-                        var src = ifr.src;
-                        src = src.indexOf("?") > -1 ? src + "&" + get : src  + "?" + get;
-                        ifr.src = src;
-                    }
-                }
-                window.handleIFrameMessage = function(e) {
-                    var args = e.data.split(":");
-                    if (args.length > 2) { iframe = document.getElementById("JotFormIFrame-" + args[(args.length - 1)]); } else { iframe = document.getElementById("JotFormIFrame"); }
-                    if (!iframe) { return; }
-                    switch (args[0]) {
-                        case "scrollIntoView":
-                            iframe.scrollIntoView();
-                            break;
-                        case "setHeight":
-                            iframe.style.height = args[1] + "px";
-                            break;
-                        case "collapseErrorPage":
-                            if (iframe.clientHeight > window.innerHeight) {
-                            iframe.style.height = window.innerHeight + "px";
-                            }
-                            break;
-                        case "reloadPage":
-                            window.location.reload();
-                            break;
-                        case "loadScript":
-                            var src = args[1];
-                            if (args.length > 3) {
-                            src = args[1] + ':' + args[2];
-                            }
-                            var script = document.createElement('script');
-                            script.src = src;
-                            script.type = 'text/javascript';
-                            document.body.appendChild(script);
-                            break;
-                        case "exitFullscreen":
-                            if      (window.document.exitFullscreen)        window.document.exitFullscreen();
-                            else if (window.document.mozCancelFullScreen)   window.document.mozCancelFullScreen();
-                            else if (window.document.mozCancelFullscreen)   window.document.mozCancelFullScreen();
-                            else if (window.document.webkitExitFullscreen)  window.document.webkitExitFullscreen();
-                            else if (window.document.msExitFullscreen)      window.document.msExitFullscreen();
-                            break;
-                        }
-                        var isJotForm = (e.origin.indexOf("jotform") > -1) ? true : false;
-                        if(isJotForm && "contentWindow" in iframe && "postMessage" in iframe.contentWindow) {
-                        var urls = {"docurl":encodeURIComponent(document.URL),"referrer":encodeURIComponent(document.referrer)};
-                            iframe.contentWindow.postMessage(JSON.stringify({"type":"urls","value":urls}), "*");
-                        }
-                        };
-                        if (window.addEventListener) {
-                        window.addEventListener("message", handleIFrameMessage, false);
-                        } else if (window.attachEvent) {
-                            window.attachEvent("onmessage", handleIFrameMessage);
-                        }
-                    </script>
-                
-            </div>
-            
-            <div class="col-sm-3 align-self-center">
-            <!-- Contacr Information -->
-                <h2>Address:</h2>
-                    <p class="mb-n1">1225 Ken Pratt Blvd., Suite 124</p>
-                    <p>Longmont, CO. 80504</p>
-                
-                <h2>Phone:</h2>
-                <h3><a href="tel:7203408004">(720)340-8004</a></h3>
-                
-                <h2>Email:</h2>
-                <p class="pb-5"><a href="mailto:doubleclickme@example.com">info@simplyhomeconsignments.com</a></p>
-                 <!-- iframe of google location -->
-                <h2 class="pb-4">Get In Touch:</h2>
-                    
-                    <iframe allowfullscreen="" frameborder="0" height="300" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d184913.89173741135!2d-116.3739816040482!3d43.60072052872039!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54aef172e947b49d%3A0x9a5b989b36679d9b!2sBoise%2C+ID!5e0!3m2!1sen!2sus!4v1475772285257"></iframe>
+                <!-- Card Container for site policies -->
+                <div class="row">
+                    <div class="col-sm ">
+                        <div class="card">
+                            <div class="card-header text-uppercase text-center">Address</div>
+                            <div class="card-body">
+                                <p class="card-text">We are located in the Sherman Village Shopping Center, next door to LePeep.</p>
+                                <p class="card-text">1225 Ken Pratt Blvd., Suite 124</p>
+                                <p class="card-text">Longmont, Co. 80501</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm ">
+                        <div class="card">
+                            <div class="card-header text-uppercase text-center">Contact</div>
+                            <div class="card-body">
+                                <p class="card-text">You may use the form below to send general store inquiries, or contact us directly</p>
+                                <p class="card-text">PHONE: (720)340-8004</p>
+                                <p class="card-text">EMAIL: <a href="mailto://info@simplyhomeconsignment.com">info@simplyhomeconsingments.com</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm ">
+                        <div class="card">
+                            <div class="card-header text-uppercase text-center">Driving Directions</div>
+                            <div class="card-body">
+                                <p class="card-text"><a href="https://www.simplyhomeconsignments.com/store/our-location" class="btn btn-primary btn-lg btn-block active" role="button" aria-pressed="true">Directions</a></p>
 
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
+        </div>
+
+            <div class="row">
+                    <!-- Contact Us Text & Form -->
+                <div class="col-sm">
+
+                    <iframe class="my-3" allow="geolocation; microphone; camera" allowfullscreen="true" allowtransparency="true" frameborder="0" id="JotFormIFrame-81115989409163" onload="window.parent.scrollTo(0,0)" scrolling="no" src="https://form.jotform.com/81115989409163" style="width: 1px; min-width: 100%; height:539px; border:none;"></iframe><script type="text/javascript">
+                        var ifr = document.getElementById("JotFormIFrame-81115989409163");
+                        if(window.location.href && window.location.href.indexOf("?") > -1) {
+                            var get = window.location.href.substr(window.location.href.indexOf("?") + 1);
+                            if(ifr && get.length > 0) {
+                                var src = ifr.src;
+                                src = src.indexOf("?") > -1 ? src + "&" + get : src  + "?" + get;
+                                ifr.src = src;
+                            }
+                        }
+                        window.handleIFrameMessage = function(e) {
+                            var args = e.data.split(":");
+                            if (args.length > 2) { iframe = document.getElementById("JotFormIFrame-" + args[(args.length - 1)]); } else { iframe = document.getElementById("JotFormIFrame"); }
+                            if (!iframe) { return; }
+                            switch (args[0]) {
+                                case "scrollIntoView":
+                                    iframe.scrollIntoView();
+                                    break;
+                                case "setHeight":
+                                    iframe.style.height = args[1] + "px";
+                                    break;
+                                case "collapseErrorPage":
+                                    if (iframe.clientHeight > window.innerHeight) {
+                                    iframe.style.height = window.innerHeight + "px";
+                                    }
+                                    break;
+                                case "reloadPage":
+                                    window.location.reload();
+                                    break;
+                                case "loadScript":
+                                    var src = args[1];
+                                    if (args.length > 3) {
+                                    src = args[1] + ':' + args[2];
+                                    }
+                                    var script = document.createElement('script');
+                                    script.src = src;
+                                    script.type = 'text/javascript';
+                                    document.body.appendChild(script);
+                                    break;
+                                case "exitFullscreen":
+                                    if      (window.document.exitFullscreen)        window.document.exitFullscreen();
+                                    else if (window.document.mozCancelFullScreen)   window.document.mozCancelFullScreen();
+                                    else if (window.document.mozCancelFullscreen)   window.document.mozCancelFullScreen();
+                                    else if (window.document.webkitExitFullscreen)  window.document.webkitExitFullscreen();
+                                    else if (window.document.msExitFullscreen)      window.document.msExitFullscreen();
+                                    break;
+                                }
+                                var isJotForm = (e.origin.indexOf("jotform") > -1) ? true : false;
+                                if(isJotForm && "contentWindow" in iframe && "postMessage" in iframe.contentWindow) {
+                                var urls = {"docurl":encodeURIComponent(document.URL),"referrer":encodeURIComponent(document.referrer)};
+                                    iframe.contentWindow.postMessage(JSON.stringify({"type":"urls","value":urls}), "*");
+                                }
+                                };
+                                if (window.addEventListener) {
+                                window.addEventListener("message", handleIFrameMessage, false);
+                                } else if (window.attachEvent) {
+                                    window.attachEvent("onmessage", handleIFrameMessage);
+                                }
+                            </script>
+                </div>
         </div>        
     </div>
 </div>
+
     
 <!-- Card Container for site policies -->
 <div class="site-container container-margin">
@@ -129,7 +148,7 @@
                     <div class="card-header text-uppercase text-center">Website Privacy Policy</div>
                     <div class="card-body">
                         <p class="card-text">Your privacy is very important to us. We have developed this Policy in order for you to understand how we collect, use, communicate and disclose and make use of personal information.</p>
-                        <a href="https://www.simplyhomeconsignments.com/store/privacy-policy" class="btn btn-primary btn-block">View Our Privacy Policy</a>
+                        <p class="card-text"><a href="https://www.simplyhomeconsignments.com/store/privacy-policy" class="card-text btn btn-primary btn-block">View Our Privacy Policy</a></p>
                     </div>
                 </div>
             </div>
@@ -138,7 +157,7 @@
                     <div class="card-header text-uppercase text-center">Website Terms Of Service</div>
                     <div class="card-body">
                         <p class="card-text">This website allows you to shop and purchase online.  Accordingly, we have adopted the following terms of use. This portects you, as the consumer and us the merchant.  READ MORE</p>
-                        <a href="https://www.simplyhomeconsignments.com/store/website-terms" class="btn btn-primary btn-block">View Our Terms Of Service</a>
+                        <p class="card-text"><a href="https://www.simplyhomeconsignments.com/store/website-terms" class="btn btn-primary btn-block">View Our Terms Of Service</a></p>
                     </div>
                 </div>
             </div>
@@ -147,7 +166,7 @@
                     <div class="card-header text-uppercase text-center">Contact Simply Home</div>
                     <div class="card-body">
                         <p class="card-text">Please feel free to contact use through email (info@somplycomeconsignments.com, by phone (720)340-8004 or directly through the website.</p>
-                        <a href="newContactUs.html" class="btn btn-primary btn-block">Contact Us</a>
+                        <p class="card-text"><a href="newContactUs.html" class="btn btn-primary btn-block">Contact Us</a></p>
                     </div>
                 </div>
             </div>
