@@ -85,54 +85,22 @@ FF16+, Chrome26+, Opera12+, Safari7+ */
 MENU, LINK AND FONT CUSTOMIZATION
    ==========================================*/
 a{
-    color: #000000;
+color: #000000;
 }
 
 a:hover{
-    color: #FFFFFF;
+color: #FFFFFF;
 }
 
 .site-navbar .site-navigation .site-menu .has-children:active > a, .site-navbar .site-navigation .site-menu .has-children:focus > a, .site-navbar .site-navigation .site-menu .has-children:hover > a{
-    color: #FFFFFF;
+Color: #FFFFFF;
 }
 
 .item-entry .item-title a{
-    color: #000000;
+color: #000000;
 }
 .item-entry .item-title a:hover{
-    color: #707B61;
-}
-
-/* ==========================================
-USER/CONSIGNOR INTERFACE CUSTOMIZATION
-   ==========================================*/
-
-.vue-tabs .nav-pills {
-    background-color: #707b61 !important;
-}
-
-.form-control{
-    color: #000000;
-}
-
-.form-control-static{
-    color: red !important;
-}
-
-.panel-rico-gray .panel-heading, .summary-heading{
-    background-color: #707b61 !important;
-}
-
-.panel-rico-gray .panel-heading, .summary-heading{
-    color: #FFFFFF !important;
-}
-
-[name="Datatable"]{
-    background-color: #FFFFFF !important;
-}
-
-.tab-content {
-    background-color:  #FFFFFF !important;
+color: #707B61;
 }
 
 /* ==========================================

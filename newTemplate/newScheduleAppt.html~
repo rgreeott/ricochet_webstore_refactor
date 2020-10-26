@@ -38,10 +38,10 @@
                     <div class="col-sm m-4">
                         <img alt="Simply Home Consignments | Furniture Image" class="img-fluid border border-danger" src="https://s3.amazonaws.com/simplyhomeconsignments.com/websiteImages/scheduleAppt/IMG_schedule_6715-1500x850.jpg"/>
                     </div>
-                    <div class="row text-center">
+                    <div class="row">
                         <div class="col-sm">&nbsp;
                             <p class="font-weight-bold px-3 text-left text-lg-left text-wrap">We have started doing limited direct buyout offers on furniture, decor &amp; some clothing/accessory items.&nbsp; This is where we propose a cash offer for your items; if you accept, we&apos;ll pay you before you leave. The value WILL BE less, but you DO NOT have to wait the standard 60 day consignment cycle to see if your items sell.&nbsp;If you are interested in this, please let us know at the time of your consignment and we will do our best to make things align for both parties.</p>
-                            <p class="font-weight-bold h-auto px-3 text-center text-lg-center text-wrap w-100"> <button type="button" class="bg-light btn btn-lg btn-outline-danger d-flex d-lg-flex has-menu shadow-sm text-black-50 text-center text-lg-center w-100" title="CLICK HERE TO SCHEDULE NOW!">
+                            <p class="font-weight-bold h-auto px-3 text-center text-lg-center text-wrap w-75"> <button type="button" class="text-center bg-light btn btn-lg btn-outline-danger d-flex d-lg-flex has-menu shadow-sm text-black-50 text-center text-lg-center w-75" title="CLICK HERE TO SCHEDULE NOW!">
                                     <a href="https://simplyhomeportal.com/appointment" target="_blank">SCHEDULE APPOINTMENT NOW</a>
                                 </button></p>
                         </div>
@@ -168,6 +168,6 @@
         <!-- Bootstrap JS and Jquery -->
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>                        >  
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>                >  
     </body>
 </html>
