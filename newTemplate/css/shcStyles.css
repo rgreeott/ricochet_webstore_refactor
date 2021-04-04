@@ -85,11 +85,11 @@ FF16+, Chrome26+, Opera12+, Safari7+ */
 MENU, LINK AND FONT CUSTOMIZATION
    ==========================================*/
 a{
-    color: #000000;
+    color: #000000 !important;
 }
 
 a:hover{
-    color: #FFFFFF;
+    color: #FFFFFF !important;
 }
 
 .site-navbar .site-navigation .site-menu .has-children:active > a, .site-navbar .site-navigation .site-menu .has-children:focus > a, .site-navbar .site-navigation .site-menu .has-children:hover > a{
